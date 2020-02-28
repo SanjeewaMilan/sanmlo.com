@@ -1,7 +1,7 @@
 <template>
   <div class="MainWindow">
-    <div>
-      aha
+    <div class=''>
+
     </div>
   </div>
 </template>
@@ -17,9 +17,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
+$primary:#243B55;
+$secondary:#141E30;
+
 .MainWindow {
-    background:#243B55;
-    height: 98vh;
-    background-image: radial-gradient( #243B55,#141E30);
+    background:$primary;
+    height: 100vh;
+    background-image: radial-gradient( $primary,$secondary);
+   
 }
 </style>
