@@ -15,7 +15,37 @@
         </b-nav>
       </div>
     </div>
+    <!--/.nav-links-->
+    <div class="row align-items-end">
+      <div class="col d-flex justify-content-center">
+        <div class='sm-circle d-flex justify-content-center '>
+          <div class="d-flex align-self-center">
+              <img src="../assets/in.png" width='20px' height='20px' alt="">
+          </div>       
+        </div>
+        <!--/.sm-circle-->
+        <div class='sm-circle d-flex justify-content-center '>
+          <div class="d-flex align-self-center">
+              <img src="../assets/in.png" width='20px'  alt="">
+          </div>       
+        </div>
+        <!--/.sm-circle-->
+        <div class='sm-circle d-flex justify-content-center '>
+          <div class="d-flex align-self-center">
+              <img src="../assets/in.png" width='20px' height='20px' alt="">
+          </div>       
+        </div>
+        <!--/.sm-circle-->
+        <div class='sm-circle d-flex justify-content-center '>
+          <div class="d-flex align-self-center">
+              <img src="../assets/yt.png" width='20px'  alt="">
+          </div>       
+        </div>
+        <!--/.sm-circle-->
+      </div>
+    </div> 
   </div>
+  <!--/.sidebar-->
 </template>
 
 <script>
@@ -45,10 +75,18 @@ export default {
 }
 
 .nav-links{
-  height:70vh;
+  height:78vh;
 }
 .nav-item a{
   color:white;
+}
+
+.sm-circle{
+  width:40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  margin: 2px;
 }
 
 </style>
