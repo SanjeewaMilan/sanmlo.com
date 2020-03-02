@@ -6,9 +6,9 @@
     <div class="nav-links d-flex justify-content-center">
       <div class="d-flex  align-self-center">
         <b-nav vertical>
-          <b-nav-item><font-awesome-icon icon="home" /> Welcome</b-nav-item>
-          <b-nav-item><font-awesome-icon icon="user-circle" /> About Me</b-nav-item>
-          <b-nav-item><font-awesome-icon icon="biking" /> Skills</b-nav-item>
+          <b-nav-item><font-awesome-icon icon="home" /><router-link to='/'> Welcome</router-link></b-nav-item>
+          <b-nav-item><font-awesome-icon icon="user-circle" /><router-link to='/about'> About Me</router-link></b-nav-item>
+          <b-nav-item><font-awesome-icon icon="biking" /> <router-link to='/skills'>Skills </router-link></b-nav-item>
           <b-nav-item><font-awesome-icon icon="images" /> Portfolio</b-nav-item>
           <b-nav-item><font-awesome-icon icon="book" /> Blog</b-nav-item>
           <b-nav-item><font-awesome-icon icon="envelope" /> Contact Me</b-nav-item>
@@ -16,7 +16,7 @@
       </div>
     </div>
     <!--/.nav-links-->
-    <div class="row align-items-end">
+    <div class="row align-items-end sm-icon">
       <div class="col d-flex justify-content-center">
         <div class='sm-circle d-flex justify-content-center '>
           <div class="d-flex align-self-center">
@@ -75,7 +75,7 @@ export default {
 }
 
 .nav-links{
-  height:78vh;
+  height:71vh;
 }
 .nav-item a{
   color:white;
@@ -87,6 +87,10 @@ export default {
   background: white;
   border-radius: 50%;
   margin: 2px;
+}
+
+.sm-icon{
+  height:13vh;
 }
 
 </style>

@@ -1,12 +1,24 @@
 <template>
   <div class="MainWindow">
-    <router-view />
+    <div class='row content align-items-center'>
+      <div class="col-md-7">
+        <div class="title">
+            <H1>About Me !!</H1>
+
+        </div>
+      </div>
+      <!--Logo-->
+      <div class="col-md-5">
+        
+      </div>
+      <!--end of Logo-->
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'MainWindow',
+  name: 'About',
   props: {
    
   }
